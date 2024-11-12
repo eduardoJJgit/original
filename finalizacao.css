@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+body{
+    background-color: black;
+    font-family: "Chelsea Market", system-ui;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h{
+    color: white;
+    
+}
+.foto{
+    height: 250px;
+    width: 300px;
+    padding-left: 60px;
+}
+.video video {
+    width: 90%;       /* Ajusta a largura do vídeo para 80% da largura do contêiner */
+    height: auto;
+    padding-left: 20px;                 /* Mantém a proporção do vídeo, ajustando automaticamente a altura */
+    max-width: 1280px; /* Limita a largura máxima do vídeo a 600px */
+}
+
+.titulo{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.botao {
+    display: flex;
+    flex-direction: column;               /* Usa o modelo de layout flex */
+    justify-content: center;     /* Centraliza os botões horizontalmente */
+    align-items: center;         /* Centraliza os botões verticalmente */
+    gap: 10px;                   /* Espaçamento entre os botões */
+    height: 30vh;               /* Faz com que a div ocupe a altura inteira da tela */
+}
+
+.botao button {
+    padding: 25px 30px;          /* Adiciona preenchimento interno aos botões */
+    font-size: 16px;              /* Define o tamanho da fonte dos botões */
+    cursor: pointer;             /* Muda o cursor para pointer quando o mouse passa sobre o botão */
+    border: none;                /* Remove a borda dos botões */
+    background-color: #ff0000;   /* Cor de fundo para os botões */
+    color: white;                /* Cor do texto do botão */
+    border-radius: 5px;          /* Bordas arredondadas para os botões */
+}
+
+
+
+
+
+

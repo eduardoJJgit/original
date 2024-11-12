@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+ 
+}
+.foto{
+    height: 250px;
+    width: 300px;
+    padding-left: 30px;
+}
+body{
+    font-family: "Chelsea Market", system-ui;
+    background-color: black;
+}
+.background-preto{
+    background-color: black;
+}
+.container{
+    max-width: 1440px;
+    padding: 0 5%;
+    margin: 0 auto;
+}
+.h2{
+    color: white;
+}
+.btn{
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    border-radius: 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.logo a{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+
+    padding-left: 30px;
+    display: flex;
+ 
+}
+
+.ul{
+    display: flex;
+    align-items: center;
+    
+}.ul li{
+    margin: 0 35px;
+    font-size: 15px;
+}
+.ul a{
+    color: white;
+}
+
+main .container{
+    margin-top: 40px;
+    
+    
+}
+.main-texto{
+    width: 50%;
+    color: red;
+    padding-left: 25px;
+   
+}
+.main-texto h1{
+    font-size: 3.9rem;
+}
+.span{
+    font-size:454px;
+}
+.botao {
+    display: flex;               /* Usa o modelo de layout flex */
+    justify-content: center;     /* Centraliza os botões horizontalmente */
+    align-items: center;         /* Centraliza os botões verticalmente */
+    gap: 10px;                   /* Espaçamento entre os botões */
+    height: 10vh;               /* Faz com que a div ocupe a altura inteira da tela */
+}
+
+.botao button {
+    padding: 10px 20px;          /* Adiciona preenchimento interno aos botões */
+    font-size: 16px;              /* Define o tamanho da fonte dos botões */
+    cursor: pointer;             /* Muda o cursor para pointer quando o mouse passa sobre o botão */
+    border: none;                /* Remove a borda dos botões */
+    background-color: #ff0000;   /* Cor de fundo para os botões */
+    color: white;                /* Cor do texto do botão */
+    border-radius: 5px;          /* Bordas arredondadas para os botões */
+}
+
+
+
+
+/*Responsivo*/
+@media (max-width: 960px){
+   .menu-icone{
+    display: block;
+   }
+   .ul{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    background: red;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    left: 100%;
+    transition: 0.3s;
+}
+}
